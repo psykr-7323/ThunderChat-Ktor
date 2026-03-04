@@ -1,0 +1,18 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Gradle & Build Output
+.gradle/
+build/
+out/
+
+# Database
+*.db
+*.mv.db
+*.trace.db
+
+# Environment Variables (Keep our secrets safe!)
+local.properties
+.env
