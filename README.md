@@ -2,7 +2,7 @@
 
 A high-performance, real-time chat server built with Ktor. This project follows Clean Architecture principles, utilizing Koin for dependency injection, JetBrains Exposed for database management, and comprehensive automated testing.
 
-## 🚀 Key Features
+## Key Features
 
 * **Clean Architecture:** Strictly decoupled layers separating routes, business logic, and database operations.
 * **Real-Time WebSockets:** Bi-directional, real-time messaging pipeline.
@@ -11,7 +11,7 @@ A high-performance, real-time chat server built with Ktor. This project follows 
 * **Data Persistence:** PostgreSQL database managed via JetBrains Exposed ORM.
 * **Automated QA:** Full integration test suite utilizing an in-memory H2 database.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Language:** Kotlin
 * **Framework:** Ktor 3.x
@@ -20,7 +20,7 @@ A high-performance, real-time chat server built with Ktor. This project follows 
 * **ORM:** JetBrains Exposed
 * **Authentication:** JWT & Google OAuth 2.0
 
-## 🏗 Architecture Layout
+## Architecture Layout
 
 Our codebase is divided into clear, specialized layers:
 
@@ -30,7 +30,7 @@ Our codebase is divided into clear, specialized layers:
 * **`di/`:** Koin modules defining how all components are injected.
 * **`models/`:** Kotlin data classes and Exposed table definitions.
 
-## 🚦 Building & Running
+## Building & Running
 
 Use the following Gradle tasks to manage our project:
 
